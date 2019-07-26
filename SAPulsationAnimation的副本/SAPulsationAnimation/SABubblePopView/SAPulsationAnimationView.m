@@ -1,0 +1,45 @@
+//
+//  SAPulsationAnimationView.m
+//  SAPulsationAnimation
+//
+//  Created by 李磊 on 28/6/17.
+//  Copyright © 2017年 李磊. All rights reserved.
+//
+
+#import "SAPulsationAnimationView.h"
+
+@implementation SAPulsationAnimationView
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+
+
+
+- (void)animationWithDuraton:(NSTimeInterval)duration{
+    [UIView animateWithDuration:duration animations:^{
+        self.transform = CGAffineTransformScale(self.transform, 3.0, 3.0);
+        self.alpha = 0.0;
+    } completion:^(BOOL finished) {
+        if (self.superview) {
+            [self removeFromSuperview];
+        }
+    }];
+}
+
+
+- (void)drawRect:(CGRect)rect {
+    
+        UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2) radius:60 startAngle:0 endAngle:2 * M_PI clockwise:YES];
+        path.lineWidth = 1.0;
+        [[UIColor colorWithRed:9/255.0 green:113/255.0 blue:206/255.0 alpha:1] setFill];
+        [[UIColor colorWithRed:9/255.0 green:113/255.0 blue:206/255.0 alpha:1] setStroke];
+        [path stroke];
+        [path fill];
+}
+
+
+@end

@@ -1,0 +1,6 @@
+platform :ios, ‘9.2’
+use_frameworks!
+
+target ‘RunloopAndRuntime’ do
+  pod 'SDCycleScrollView', '~> 1.64'
+end

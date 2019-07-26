@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'ssh://git@192.168.6.115:7999/xdwios/saspecs.git'
+
+platform :ios, '8.0'
+target 'SASegmentDemo' do
+    
+	
+#    pod 'SAKit'
+
+    pod 'Masonry'
+end
+

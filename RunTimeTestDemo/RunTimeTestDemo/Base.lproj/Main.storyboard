@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1s-0Q-mTM">
+                                <rect key="frame" x="53" y="28" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="遍历属性"/>
+                                <connections>
+                                    <action selector="pressSelectPropertyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IeI-2a-CfS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avK-Ez-hLd">
+                                <rect key="frame" x="53" y="86" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="遍历实例变量"/>
+                                <connections>
+                                    <action selector="pressSelectPrivateButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GQ7-I7-OT2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLg-89-CUK">
+                                <rect key="frame" x="53" y="146" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="遍历方法"/>
+                                <connections>
+                                    <action selector="pressSelectMethodButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iwV-eS-rPQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuP-uF-OVL">
+                                <rect key="frame" x="138" y="206" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="遍历使用"/>
+                                <connections>
+                                    <action selector="useHaveKnownPropertyButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vgd-dn-pht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOb-S2-m6w">
+                                <rect key="frame" x="53" y="271" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="动态添加方法"/>
+                                <connections>
+                                    <action selector="pressDynamicAddMethodButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYP-Dc-Xad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccw-7v-12k">
+                                <rect key="frame" x="53" y="327" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="exercise"/>
+                                <connections>
+                                    <action selector="pressRunButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hm7-Wh-KWa"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="遍历使用" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ojF-6r-HZT">
+                                <rect key="frame" x="262" y="206" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0W-MX-Vhg">
+                                <rect key="frame" x="241" y="327" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="eat"/>
+                                <connections>
+                                    <action selector="pressEatButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qel-4C-wFf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28g-R7-aWt">
+                                <rect key="frame" x="53" y="383" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="拦截系统方法"/>
+                                <connections>
+                                    <action selector="pressChangeSystemMethodAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oaI-hw-QtM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9AM-k5-t07">
+                                <rect key="frame" x="124" y="450" width="126" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="changeSystemMethodButton" destination="28g-R7-aWt" id="tkt-uj-NkY"/>
+                        <outlet property="dynamicAddMethodButton" destination="qOb-S2-m6w" id="586-IH-gee"/>
+                        <outlet property="eatButton" destination="J0W-MX-Vhg" id="NBt-KT-a0j"/>
+                        <outlet property="runButton" destination="Ccw-7v-12k" id="9EP-Ls-ewn"/>
+                        <outlet property="selectMethodButton" destination="ZLg-89-CUK" id="a1k-VY-TdK"/>
+                        <outlet property="selectPrivateButton" destination="avK-Ez-hLd" id="Lge-pv-DYy"/>
+                        <outlet property="selectPropertyButton" destination="L1s-0Q-mTM" id="DVK-XA-42d"/>
+                        <outlet property="testImageView" destination="9AM-k5-t07" id="1RH-t2-4HA"/>
+                        <outlet property="testTextField" destination="ojF-6r-HZT" id="p2G-yq-S8O"/>
+                        <outlet property="useHaveKnownPropertyButton" destination="fuP-uF-OVL" id="GTf-Jl-IdG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="-34.632683658170919"/>
+        </scene>
+    </scenes>
+</document>

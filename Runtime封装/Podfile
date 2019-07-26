@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+
+target :Runtime封装 do
+pod 'SAPublicModule', ‘0.0.4’
+end

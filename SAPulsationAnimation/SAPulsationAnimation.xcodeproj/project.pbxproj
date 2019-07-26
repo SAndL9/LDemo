@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8490F1171F033CFE00C706DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490F1161F033CFE00C706DB /* main.m */; };
+		8490F11A1F033CFE00C706DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490F1191F033CFE00C706DB /* AppDelegate.m */; };
+		8490F11D1F033CFE00C706DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490F11C1F033CFE00C706DB /* ViewController.m */; };
+		8490F1201F033CFE00C706DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490F11E1F033CFE00C706DB /* Main.storyboard */; };
+		8490F1221F033CFE00C706DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8490F1211F033CFE00C706DB /* Assets.xcassets */; };
+		8490F1251F033CFE00C706DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490F1231F033CFE00C706DB /* LaunchScreen.storyboard */; };
+		8490F12E1F033D4F00C706DB /* SAPulsationAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490F12D1F033D4F00C706DB /* SAPulsationAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8490F1121F033CFE00C706DB /* SAPulsationAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPulsationAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490F1161F033CFE00C706DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8490F1181F033CFE00C706DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8490F1191F033CFE00C706DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8490F11B1F033CFE00C706DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8490F11C1F033CFE00C706DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8490F11F1F033CFE00C706DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8490F1211F033CFE00C706DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8490F1241F033CFE00C706DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8490F1261F033CFE00C706DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8490F12C1F033D4F00C706DB /* SAPulsationAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPulsationAnimationView.h; sourceTree = "<group>"; };
+		8490F12D1F033D4F00C706DB /* SAPulsationAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPulsationAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8490F10F1F033CFE00C706DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8490F1091F033CFE00C706DB = {
+			isa = PBXGroup;
+			children = (
+				8490F1141F033CFE00C706DB /* SAPulsationAnimation */,
+				8490F1131F033CFE00C706DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8490F1131F033CFE00C706DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8490F1121F033CFE00C706DB /* SAPulsationAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8490F1141F033CFE00C706DB /* SAPulsationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8490F1181F033CFE00C706DB /* AppDelegate.h */,
+				8490F1191F033CFE00C706DB /* AppDelegate.m */,
+				8490F11B1F033CFE00C706DB /* ViewController.h */,
+				8490F11C1F033CFE00C706DB /* ViewController.m */,
+				8490F12C1F033D4F00C706DB /* SAPulsationAnimationView.h */,
+				8490F12D1F033D4F00C706DB /* SAPulsationAnimationView.m */,
+				8490F11E1F033CFE00C706DB /* Main.storyboard */,
+				8490F1211F033CFE00C706DB /* Assets.xcassets */,
+				8490F1231F033CFE00C706DB /* LaunchScreen.storyboard */,
+				8490F1261F033CFE00C706DB /* Info.plist */,
+				8490F1151F033CFE00C706DB /* Supporting Files */,
+			);
+			path = SAPulsationAnimation;
+			sourceTree = "<group>";
+		};
+		8490F1151F033CFE00C706DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8490F1161F033CFE00C706DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8490F1111F033CFE00C706DB /* SAPulsationAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8490F1291F033CFE00C706DB /* Build configuration list for PBXNativeTarget "SAPulsationAnimation" */;
+			buildPhases = (
+				8490F10E1F033CFE00C706DB /* Sources */,
+				8490F10F1F033CFE00C706DB /* Frameworks */,
+				8490F1101F033CFE00C706DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPulsationAnimation;
+			productName = SAPulsationAnimation;
+			productReference = 8490F1121F033CFE00C706DB /* SAPulsationAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8490F10A1F033CFE00C706DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李磊";
+				TargetAttributes = {
+					8490F1111F033CFE00C706DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8490F10D1F033CFE00C706DB /* Build configuration list for PBXProject "SAPulsationAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8490F1091F033CFE00C706DB;
+			productRefGroup = 8490F1131F033CFE00C706DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8490F1111F033CFE00C706DB /* SAPulsationAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8490F1101F033CFE00C706DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490F1251F033CFE00C706DB /* LaunchScreen.storyboard in Resources */,
+				8490F1221F033CFE00C706DB /* Assets.xcassets in Resources */,
+				8490F1201F033CFE00C706DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8490F10E1F033CFE00C706DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490F11D1F033CFE00C706DB /* ViewController.m in Sources */,
+				8490F11A1F033CFE00C706DB /* AppDelegate.m in Sources */,
+				8490F1171F033CFE00C706DB /* main.m in Sources */,
+				8490F12E1F033D4F00C706DB /* SAPulsationAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8490F11E1F033CFE00C706DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8490F11F1F033CFE00C706DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8490F1231F033CFE00C706DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8490F1241F033CFE00C706DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8490F1271F033CFE00C706DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8490F1281F033CFE00C706DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8490F12A1F033CFE00C706DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = SAPulsationAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPulsationAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77f0e1f5-41af-44ef-975e-38903d34a039";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+			};
+			name = Debug;
+		};
+		8490F12B1F033CFE00C706DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = SAPulsationAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPulsationAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77f0e1f5-41af-44ef-975e-38903d34a039";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8490F10D1F033CFE00C706DB /* Build configuration list for PBXProject "SAPulsationAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490F1271F033CFE00C706DB /* Debug */,
+				8490F1281F033CFE00C706DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8490F1291F033CFE00C706DB /* Build configuration list for PBXNativeTarget "SAPulsationAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490F12A1F033CFE00C706DB /* Debug */,
+				8490F12B1F033CFE00C706DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8490F10A1F033CFE00C706DB /* Project object */;
+}

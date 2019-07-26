@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8494229220F6DE0700BDF0B5 /* LLPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494229120F6DE0700BDF0B5 /* LLPageViewController.m */; };
+		8494229520F6DE1700BDF0B5 /* LLPageViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494229420F6DE1700BDF0B5 /* LLPageViewControllerDemo.m */; };
+		8494229820F6DE3300BDF0B5 /* LLPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494229720F6DE3300BDF0B5 /* LLPageView.m */; };
+		8494229B20F6E37200BDF0B5 /* LLPageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494229A20F6E37200BDF0B5 /* LLPageCollectionCell.m */; };
+		8494229E20F71CAF00BDF0B5 /* LLPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494229D20F71CAF00BDF0B5 /* LLPageContentViewController.m */; };
+		849422A420F725B400BDF0B5 /* LLPageContentViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849422A320F725B400BDF0B5 /* LLPageContentViewControllerDemo.m */; };
+		84C50FC020F59D7300B08910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FBF20F59D7300B08910 /* AppDelegate.m */; };
+		84C50FC320F59D7300B08910 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FC220F59D7300B08910 /* ViewController.m */; };
+		84C50FC820F59D7300B08910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C50FC720F59D7300B08910 /* Assets.xcassets */; };
+		84C50FCE20F59D7300B08910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FCD20F59D7300B08910 /* main.m */; };
+		84C50FD920F59E6800B08910 /* SATopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FD720F59E6700B08910 /* SATopScrollView.m */; };
+		84C50FDA20F59E6800B08910 /* SAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FD820F59E6700B08910 /* SAPageViewController.m */; };
+		84C50FF920F59F6A00B08910 /* SAPageDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FF820F59F6A00B08910 /* SAPageDemoViewController.m */; };
+		84C50FFC20F59FBB00B08910 /* LLRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FFB20F59FBB00B08910 /* LLRedViewController.m */; };
+		84C50FFF20F59FC800B08910 /* LLBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C50FFE20F59FC800B08910 /* LLBlueViewController.m */; };
+		84C5100220F59FEB00B08910 /* LLOrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5100120F59FEB00B08910 /* LLOrangeViewController.m */; };
+		84C5100520F5A00000B08910 /* LLGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5100420F5A00000B08910 /* LLGreenViewController.m */; };
+		84C5100720F5A02E00B08910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C5100620F5A02E00B08910 /* Main.storyboard */; };
+		84C5100920F5A03A00B08910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C5100820F5A03A00B08910 /* LaunchScreen.storyboard */; };
+		84C5101020F5A85300B08910 /* LLSegmentCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5100F20F5A85300B08910 /* LLSegmentCollectionCell.m */; };
+		84C5101320F5A87300B08910 /* LLTopSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5101220F5A87300B08910 /* LLTopSegmentView.m */; };
+		84C5101620F5A89000B08910 /* LLContentSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5101520F5A89000B08910 /* LLContentSegmentView.m */; };
+		84C5101A20F5AFA400B08910 /* LLSegmentDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5101920F5AFA400B08910 /* LLSegmentDemoViewController.m */; };
+		AB9B882A805295ECEB742944 /* libPods-SASegmentDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81372A74E2C11AC083D497A4 /* libPods-SASegmentDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E747E2764FC397F19044DE0 /* Pods-SASegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SASegmentDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SASegmentDemo/Pods-SASegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81372A74E2C11AC083D497A4 /* libPods-SASegmentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SASegmentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494229020F6DE0700BDF0B5 /* LLPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageViewController.h; sourceTree = "<group>"; };
+		8494229120F6DE0700BDF0B5 /* LLPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageViewController.m; sourceTree = "<group>"; };
+		8494229320F6DE1700BDF0B5 /* LLPageViewControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageViewControllerDemo.h; sourceTree = "<group>"; };
+		8494229420F6DE1700BDF0B5 /* LLPageViewControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageViewControllerDemo.m; sourceTree = "<group>"; };
+		8494229620F6DE3300BDF0B5 /* LLPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageView.h; sourceTree = "<group>"; };
+		8494229720F6DE3300BDF0B5 /* LLPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageView.m; sourceTree = "<group>"; };
+		8494229920F6E37200BDF0B5 /* LLPageCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageCollectionCell.h; sourceTree = "<group>"; };
+		8494229A20F6E37200BDF0B5 /* LLPageCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageCollectionCell.m; sourceTree = "<group>"; };
+		8494229C20F71CAF00BDF0B5 /* LLPageContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageContentViewController.h; sourceTree = "<group>"; };
+		8494229D20F71CAF00BDF0B5 /* LLPageContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageContentViewController.m; sourceTree = "<group>"; };
+		849422A220F725B400BDF0B5 /* LLPageContentViewControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPageContentViewControllerDemo.h; sourceTree = "<group>"; };
+		849422A320F725B400BDF0B5 /* LLPageContentViewControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPageContentViewControllerDemo.m; sourceTree = "<group>"; };
+		84C50FBB20F59D7300B08910 /* SASegmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SASegmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C50FBE20F59D7300B08910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C50FBF20F59D7300B08910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C50FC120F59D7300B08910 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C50FC220F59D7300B08910 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84C50FC720F59D7300B08910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C50FCC20F59D7300B08910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C50FCD20F59D7300B08910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C50FD520F59E6700B08910 /* SAPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPageViewController.h; sourceTree = "<group>"; };
+		84C50FD620F59E6700B08910 /* SATopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATopScrollView.h; sourceTree = "<group>"; };
+		84C50FD720F59E6700B08910 /* SATopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATopScrollView.m; sourceTree = "<group>"; };
+		84C50FD820F59E6700B08910 /* SAPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPageViewController.m; sourceTree = "<group>"; };
+		84C50FF720F59F6A00B08910 /* SAPageDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPageDemoViewController.h; sourceTree = "<group>"; };
+		84C50FF820F59F6A00B08910 /* SAPageDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPageDemoViewController.m; sourceTree = "<group>"; };
+		84C50FFA20F59FBB00B08910 /* LLRedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRedViewController.h; sourceTree = "<group>"; };
+		84C50FFB20F59FBB00B08910 /* LLRedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRedViewController.m; sourceTree = "<group>"; };
+		84C50FFD20F59FC800B08910 /* LLBlueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBlueViewController.h; sourceTree = "<group>"; };
+		84C50FFE20F59FC800B08910 /* LLBlueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLBlueViewController.m; sourceTree = "<group>"; };
+		84C5100020F59FEB00B08910 /* LLOrangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLOrangeViewController.h; sourceTree = "<group>"; };
+		84C5100120F59FEB00B08910 /* LLOrangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLOrangeViewController.m; sourceTree = "<group>"; };
+		84C5100320F5A00000B08910 /* LLGreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLGreenViewController.h; sourceTree = "<group>"; };
+		84C5100420F5A00000B08910 /* LLGreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLGreenViewController.m; sourceTree = "<group>"; };
+		84C5100620F5A02E00B08910 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84C5100820F5A03A00B08910 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C5100E20F5A85300B08910 /* LLSegmentCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSegmentCollectionCell.h; sourceTree = "<group>"; };
+		84C5100F20F5A85300B08910 /* LLSegmentCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSegmentCollectionCell.m; sourceTree = "<group>"; };
+		84C5101120F5A87200B08910 /* LLTopSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTopSegmentView.h; sourceTree = "<group>"; };
+		84C5101220F5A87300B08910 /* LLTopSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTopSegmentView.m; sourceTree = "<group>"; };
+		84C5101420F5A89000B08910 /* LLContentSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContentSegmentView.h; sourceTree = "<group>"; };
+		84C5101520F5A89000B08910 /* LLContentSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContentSegmentView.m; sourceTree = "<group>"; };
+		84C5101820F5AFA400B08910 /* LLSegmentDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSegmentDemoViewController.h; sourceTree = "<group>"; };
+		84C5101920F5AFA400B08910 /* LLSegmentDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSegmentDemoViewController.m; sourceTree = "<group>"; };
+		B6930F3E0BA62829A260BC07 /* Pods-SASegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SASegmentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SASegmentDemo/Pods-SASegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C50FB820F59D7300B08910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9B882A805295ECEB742944 /* libPods-SASegmentDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412C2FDB29C2D13FAA069C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6930F3E0BA62829A260BC07 /* Pods-SASegmentDemo.debug.xcconfig */,
+				1E747E2764FC397F19044DE0 /* Pods-SASegmentDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4869F27EF02696B7AC3CBDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81372A74E2C11AC083D497A4 /* libPods-SASegmentDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8494228E20F6DDE000BDF0B5 /* LLPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8494229020F6DE0700BDF0B5 /* LLPageViewController.h */,
+				8494229120F6DE0700BDF0B5 /* LLPageViewController.m */,
+				8494229620F6DE3300BDF0B5 /* LLPageView.h */,
+				8494229720F6DE3300BDF0B5 /* LLPageView.m */,
+				8494229920F6E37200BDF0B5 /* LLPageCollectionCell.h */,
+				8494229A20F6E37200BDF0B5 /* LLPageCollectionCell.m */,
+				8494229C20F71CAF00BDF0B5 /* LLPageContentViewController.h */,
+				8494229D20F71CAF00BDF0B5 /* LLPageContentViewController.m */,
+			);
+			path = LLPageViewController;
+			sourceTree = "<group>";
+		};
+		8494228F20F6DDF400BDF0B5 /* LLPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8494229320F6DE1700BDF0B5 /* LLPageViewControllerDemo.h */,
+				8494229420F6DE1700BDF0B5 /* LLPageViewControllerDemo.m */,
+				849422A220F725B400BDF0B5 /* LLPageContentViewControllerDemo.h */,
+				849422A320F725B400BDF0B5 /* LLPageContentViewControllerDemo.m */,
+			);
+			path = LLPageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		84C50FB220F59D7300B08910 = {
+			isa = PBXGroup;
+			children = (
+				84C50FBD20F59D7300B08910 /* SASegmentDemo */,
+				84C50FBC20F59D7300B08910 /* Products */,
+				412C2FDB29C2D13FAA069C35 /* Pods */,
+				4869F27EF02696B7AC3CBDBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C50FBC20F59D7300B08910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C50FBB20F59D7300B08910 /* SASegmentDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C50FBD20F59D7300B08910 /* SASegmentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8494228F20F6DDF400BDF0B5 /* LLPageViewControllerDemo */,
+				8494228E20F6DDE000BDF0B5 /* LLPageViewController */,
+				84C5101720F5AF8E00B08910 /* LLSegmentViewDemo */,
+				84C5100A20F5A40A00B08910 /* LLSegmentViewController */,
+				84C50FDB20F59E9300B08910 /* SADemo */,
+				84C50FD420F59E6100B08910 /* SAPageViewController */,
+				84C50FBE20F59D7300B08910 /* AppDelegate.h */,
+				84C50FBF20F59D7300B08910 /* AppDelegate.m */,
+				84C50FC120F59D7300B08910 /* ViewController.h */,
+				84C50FC220F59D7300B08910 /* ViewController.m */,
+				84C5100620F5A02E00B08910 /* Main.storyboard */,
+				84C50FC720F59D7300B08910 /* Assets.xcassets */,
+				84C5100820F5A03A00B08910 /* LaunchScreen.storyboard */,
+				84C50FCC20F59D7300B08910 /* Info.plist */,
+				84C50FCD20F59D7300B08910 /* main.m */,
+			);
+			path = SASegmentDemo;
+			sourceTree = "<group>";
+		};
+		84C50FD420F59E6100B08910 /* SAPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C50FD520F59E6700B08910 /* SAPageViewController.h */,
+				84C50FD820F59E6700B08910 /* SAPageViewController.m */,
+				84C50FD620F59E6700B08910 /* SATopScrollView.h */,
+				84C50FD720F59E6700B08910 /* SATopScrollView.m */,
+			);
+			path = SAPageViewController;
+			sourceTree = "<group>";
+		};
+		84C50FDB20F59E9300B08910 /* SADemo */ = {
+			isa = PBXGroup;
+			children = (
+				84C50FF720F59F6A00B08910 /* SAPageDemoViewController.h */,
+				84C50FF820F59F6A00B08910 /* SAPageDemoViewController.m */,
+				84C50FFA20F59FBB00B08910 /* LLRedViewController.h */,
+				84C50FFB20F59FBB00B08910 /* LLRedViewController.m */,
+				84C50FFD20F59FC800B08910 /* LLBlueViewController.h */,
+				84C50FFE20F59FC800B08910 /* LLBlueViewController.m */,
+				84C5100020F59FEB00B08910 /* LLOrangeViewController.h */,
+				84C5100120F59FEB00B08910 /* LLOrangeViewController.m */,
+				84C5100320F5A00000B08910 /* LLGreenViewController.h */,
+				84C5100420F5A00000B08910 /* LLGreenViewController.m */,
+			);
+			path = SADemo;
+			sourceTree = "<group>";
+		};
+		84C5100A20F5A40A00B08910 /* LLSegmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C5100E20F5A85300B08910 /* LLSegmentCollectionCell.h */,
+				84C5100F20F5A85300B08910 /* LLSegmentCollectionCell.m */,
+				84C5101120F5A87200B08910 /* LLTopSegmentView.h */,
+				84C5101220F5A87300B08910 /* LLTopSegmentView.m */,
+				84C5101420F5A89000B08910 /* LLContentSegmentView.h */,
+				84C5101520F5A89000B08910 /* LLContentSegmentView.m */,
+			);
+			path = LLSegmentViewController;
+			sourceTree = "<group>";
+		};
+		84C5101720F5AF8E00B08910 /* LLSegmentViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84C5101820F5AFA400B08910 /* LLSegmentDemoViewController.h */,
+				84C5101920F5AFA400B08910 /* LLSegmentDemoViewController.m */,
+			);
+			path = LLSegmentViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C50FBA20F59D7300B08910 /* SASegmentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C50FD120F59D7300B08910 /* Build configuration list for PBXNativeTarget "SASegmentDemo" */;
+			buildPhases = (
+				81BFF1FD802656F44F58F519 /* [CP] Check Pods Manifest.lock */,
+				84C50FB720F59D7300B08910 /* Sources */,
+				84C50FB820F59D7300B08910 /* Frameworks */,
+				84C50FB920F59D7300B08910 /* Resources */,
+				2039858A1A5F942441BEBB8B /* [CP] Embed Pods Frameworks */,
+				AF282E40F22F3F73C0BDBE08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASegmentDemo;
+			productName = SASegmentDemo;
+			productReference = 84C50FBB20F59D7300B08910 /* SASegmentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C50FB320F59D7300B08910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李磊";
+				TargetAttributes = {
+					84C50FBA20F59D7300B08910 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 84C50FB620F59D7300B08910 /* Build configuration list for PBXProject "SASegmentDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C50FB220F59D7300B08910;
+			productRefGroup = 84C50FBC20F59D7300B08910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C50FBA20F59D7300B08910 /* SASegmentDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C50FB920F59D7300B08910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C5100920F5A03A00B08910 /* LaunchScreen.storyboard in Resources */,
+				84C50FC820F59D7300B08910 /* Assets.xcassets in Resources */,
+				84C5100720F5A02E00B08910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2039858A1A5F942441BEBB8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SASegmentDemo/Pods-SASegmentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BFF1FD802656F44F58F519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SASegmentDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF282E40F22F3F73C0BDBE08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SASegmentDemo/Pods-SASegmentDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAKit/SAKit/Resource/SAKit.bundle",
+				"${PODS_ROOT}/SALocalizable/SALocalizable/Resource/SALocalizable.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SALocalizable.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SASegmentDemo/Pods-SASegmentDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C50FB720F59D7300B08910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C50FFF20F59FC800B08910 /* LLBlueViewController.m in Sources */,
+				84C50FF920F59F6A00B08910 /* SAPageDemoViewController.m in Sources */,
+				84C50FC320F59D7300B08910 /* ViewController.m in Sources */,
+				84C50FD920F59E6800B08910 /* SATopScrollView.m in Sources */,
+				84C5101620F5A89000B08910 /* LLContentSegmentView.m in Sources */,
+				84C50FFC20F59FBB00B08910 /* LLRedViewController.m in Sources */,
+				84C5101A20F5AFA400B08910 /* LLSegmentDemoViewController.m in Sources */,
+				8494229E20F71CAF00BDF0B5 /* LLPageContentViewController.m in Sources */,
+				849422A420F725B400BDF0B5 /* LLPageContentViewControllerDemo.m in Sources */,
+				84C5100220F59FEB00B08910 /* LLOrangeViewController.m in Sources */,
+				8494229220F6DE0700BDF0B5 /* LLPageViewController.m in Sources */,
+				84C5101020F5A85300B08910 /* LLSegmentCollectionCell.m in Sources */,
+				84C5101320F5A87300B08910 /* LLTopSegmentView.m in Sources */,
+				84C50FDA20F59E6800B08910 /* SAPageViewController.m in Sources */,
+				8494229B20F6E37200BDF0B5 /* LLPageCollectionCell.m in Sources */,
+				84C50FCE20F59D7300B08910 /* main.m in Sources */,
+				84C5100520F5A00000B08910 /* LLGreenViewController.m in Sources */,
+				8494229520F6DE1700BDF0B5 /* LLPageViewControllerDemo.m in Sources */,
+				84C50FC020F59D7300B08910 /* AppDelegate.m in Sources */,
+				8494229820F6DE3300BDF0B5 /* LLPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84C50FCF20F59D7300B08910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C50FD020F59D7300B08910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C50FD220F59D7300B08910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6930F3E0BA62829A260BC07 /* Pods-SASegmentDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = SASegmentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SASegmentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37b78e25-3b21-4b47-8563-a9f9467efc39";
+				PROVISIONING_PROFILE_SPECIFIER = "Development *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C50FD320F59D7300B08910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E747E2764FC397F19044DE0 /* Pods-SASegmentDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = SASegmentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SASegmentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37b78e25-3b21-4b47-8563-a9f9467efc39";
+				PROVISIONING_PROFILE_SPECIFIER = "AppStoreDevelopment *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C50FB620F59D7300B08910 /* Build configuration list for PBXProject "SASegmentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C50FCF20F59D7300B08910 /* Debug */,
+				84C50FD020F59D7300B08910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C50FD120F59D7300B08910 /* Build configuration list for PBXNativeTarget "SASegmentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C50FD220F59D7300B08910 /* Debug */,
+				84C50FD320F59D7300B08910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C50FB320F59D7300B08910 /* Project object */;
+}
